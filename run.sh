@@ -1,6 +1,6 @@
 #!/bin/bash
 set -m
-mongodb_cmd="mongod --dbpath /data/db --auth"
+mongodb_cmd="mongod --auth"
 
 $mongodb_cmd &
 
