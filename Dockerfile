@@ -17,8 +17,6 @@ RUN apt-get update && \
 
 VOLUME ["/data/db"]
 
-WORKDIR /data
-
 ADD run.sh /run.sh
 ADD set_credentials.sh /set_credentials.sh
 
