@@ -1,6 +1,6 @@
 #!/bin/bash
 set -m
-mongodb_cmd="mongod --auth"
+mongodb_cmd="mongod --bind_ip_all --auth"
 
 $mongodb_cmd &
 
